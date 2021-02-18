@@ -1,0 +1,31 @@
+{
+  "name": "asmdi",
+  "version": "0.1.0",
+  "description": "addition subtraction multiplication division inverse",
+  "author": {
+    "name": "chenshenchao",
+    "email": "chenshenchao@outlook.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenshenchao/asmdi.git"
+  },
+  "keywords": [
+    "addition",
+    "subtraction",
+    "multiplication",
+    "division",
+    "inverse"
+  ],
+  "devDependencies": {
+    "rollup": "^2.38.5"
+  },
+  "main": "dist/umd.js",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  }
+}
